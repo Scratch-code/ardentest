@@ -1,0 +1,75 @@
+/*Colors
+
+Black background:
+222
+
+Primary Color:
+3ab5fe
+
+White:
+fafaff
+*/
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 6rem;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+/*NAVBAR*/
+.navbar {
+  text-transform: uppercase;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.nav-link {
+  font-weight: 400;
+}
+.nav-link:hover {
+  font-weight: 600;
+  color: #ff8000;
+}
+/*HERO*/
+.hero {
+  position: relative;
+}
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  font-size: 6rem;
+  border: 1px solid #fafafa;
+}
+span {
+  color: #ff8000;
+}
+/*Call To Action*/
+.light-background {
+  background-color: aliceblue;
+}
+
+.btn-main {
+  background-color: #ff8000;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.btn-main:hover {
+  background-color: black;
+  color: 3ab5fe;
+}
