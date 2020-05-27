@@ -31,15 +31,19 @@ h1 {
 /*NAVBAR*/
 .navbar {
   text-transform: uppercase;
+  color: aliceblue;
+}
+.navbar nav {
+  color: aliceblue;
 }
 .navbar-brand {
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 1.2remssh;
 }
 .nav-link {
   font-weight: 400;
 }
-.nav-link:hover {
+.nav-item a :hover {
   font-weight: 600;
   color: #ff8000;
 }
@@ -54,6 +58,13 @@ h1 {
   transform: translate(-50%, -60%);
   font-size: 6rem;
   border: 1px solid #fafafa;
+}
+.hero-text a {
+  text-decoration: none;
+  color: #fafafa;
+}
+.hero-text a:hover {
+  color: #ff8000;
 }
 span {
   color: #ff8000;
