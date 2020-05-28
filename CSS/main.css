@@ -27,6 +27,9 @@ h1 {
   text-transform: uppercase;
   color: #fafafa;
 }
+ footer a {
+  text-decoration: none;
+}
 
 /*NAVBAR*/
 .navbar {
