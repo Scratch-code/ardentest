@@ -44,12 +44,15 @@ h1 {
   font-weight: 700;
   font-size: 1.2remssh;
 }
-.nav-link {
+.navbar nav-link {
   font-weight: 400;
 }
-.nav-item a :hover {
+.navbar nav-item a :hover {
   font-weight: 600;
   color: #ff8000;
+}
+.navbar nav-item current{
+  background-color:#ff8000 ;
 }
 /*HERO*/
 .hero {
