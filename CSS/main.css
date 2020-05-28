@@ -32,6 +32,7 @@ h1 {
 .navbar {
   text-transform: uppercase;
   color: aliceblue;
+  background-color: black;
 }
 .navbar nav {
   color: aliceblue;
